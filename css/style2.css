@@ -1,0 +1,22 @@
+/* versione navigabile con larghezza schermo minore di 420px */
+ @media screen and (max-width:420px) {
+
+   .row {
+     max-width: 90%;
+     margin-top: 13%;
+   }
+
+   #steps .row>.left, #steps .row>.central, #steps .row>.right, #lezioni .row>.left, #lezioni .row>.right  {
+     width: 100%;
+     margin-bottom: 15%;
+   }
+   #why .row>.first, #why .row>.second, #why .row>.third {
+     margin-top: 10%;
+   }
+
+   img {
+     width: 50%;
+     height: auto;
+   }
+
+ }
